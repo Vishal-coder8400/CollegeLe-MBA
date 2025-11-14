@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "next lint",
-    "stylelint": "stylelint '**/*.css' --cache",
+    "stylelint": "stylelint \"**/*.css\" --cache",
     "prettier:check": "prettier --check \"**/*.{ts,tsx}\"",
     "prettier:write": "prettier --write \"**/*.{ts,tsx}\""
   },
@@ -29,6 +29,7 @@
     "@sanity/client": "^6.24.1",
     "@sanity/image-url": "^1.1.0",
     "@tabler/icons-react": "^3.35.0",
+    "embla-carousel": "^8.6.0",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^7.1.0",
     "motion": "^11.12.0",
@@ -51,6 +52,7 @@
     "eslint-config-mantine": "^4.0.3",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.2",
+    "jest": "^30.2.0",
     "postcss": "^8.4.38",
     "postcss-preset-mantine": "1.17.0",
     "postcss-simple-vars": "^7.0.1",
@@ -59,7 +61,7 @@
     "stylelint-config-standard-scss": "^13.1.0",
     "ts-jest": "^29.1.5",
     "typescript": "5.5.2",
-    "typescript-eslint": "^8.14.0"
-  },
-  "packageManager": "yarn@4.5.2"
+    "typescript-eslint": "^8.14.0",
+    "webpack": "^5.102.1"
+  }
 }
