@@ -72,74 +72,78 @@ const courses: Course[] = [
 ];
 
 export default function CoursesSlider() {
-   const [opened, { open, close }] = useDisclosure(false);
+  const [opened, { open, close }] = useDisclosure(false);
   const autoplay = Autoplay({ delay: 3500, stopOnInteraction: false });
 
   return (
     <Box py={70} style={{ background: "#FFFFFF" }}>
       <Box ta="center" mb={30}>
-        <Text className={classes.sectionTitle}>
+        {/* 🟢 FORCE COLOR (Fixes Vercel Issue) */}
+        <Text className={classes.sectionTitle} style={{ color: "#0A1D56" }}>
           Top Online Courses to Match your Interest
         </Text>
-        <Text className={classes.sectionSubtitle}>
+
+        {/* 🟢 FORCE COLOR */}
+        <Text className={classes.sectionSubtitle} style={{ color: "#555" }}>
           Let us guide you to the ideal online course for a successful career journey!
         </Text>
       </Box>
 
-    <Carousel
-  classNames={{ root: classes.carouselRoot }}
-  slideSize={{ base: "50%", md: "33.33%", lg: "25%" }}
-  slideGap="md"
-  align="start"
-  loop
-  draggable
-  containScroll="trimSnaps"
-  slidesToScroll={1}
-  withIndicators={false}
-  withControls
-  plugins={[autoplay as any]}
-  styles={{
-    viewport: {
-      paddingLeft: 0,
-      paddingRight: 0,
-      overflow: "hidden",
-    },
-  }}
->
-  {courses.map((course, idx) => (
-    <Carousel.Slide key={idx}>
-      <Box className={classes.card}>
-        <img src={course.img} alt={course.title} className={classes.image} />
+      <Carousel
+        classNames={{ root: classes.carouselRoot }}
+        slideSize={{ base: "50%", md: "33.33%", lg: "25%" }}
+        slideGap="md"
+        align="start"
+        loop
+        draggable
+        containScroll="trimSnaps"
+        slidesToScroll={1}
+        withIndicators={false}
+        withControls
+        plugins={[autoplay as any]}
+        styles={{
+          viewport: {
+            paddingLeft: 0,
+            paddingRight: 0,
+            overflow: "hidden",
+          },
+        }}
+      >
+        {courses.map((course, idx) => (
+          <Carousel.Slide key={idx}>
+            <Box className={classes.card}>
+              <img src={course.img} alt={course.title} className={classes.image} />
 
-        <Box className={classes.titleBar}>
-          <Text className={classes.titleText}>{course.title}</Text>
-        </Box>
+              {/* 🟢 TITLE BAR ALWAYS VISIBLE */}
+              <Box className={classes.titleBar}>
+                <Text className={classes.titleText} style={{ color: "#fff" }}>
+                  {course.title}
+                </Text>
+              </Box>
 
-        <Box className={classes.overlay}>
-          <Text className={classes.overlayTitle}>{course.title}</Text>
-          <ul className={classes.details}>
-            {course.details.map((d, i) => (
-              <li key={i}>{d}</li>
-            ))}
-          </ul>
-        </Box>
-      </Box>
-    </Carousel.Slide>
-  ))}
-</Carousel>
+              {/* 🟢 OVERLAY FIXED COLORS */}
+              <Box className={classes.overlay}>
+                <Text className={classes.overlayTitle} style={{ color: "#fff" }}>
+                  {course.title}
+                </Text>
+                <ul className={classes.details}>
+                  {course.details.map((d, i) => (
+                    <li key={i} style={{ color: "#fff" }}>{d}</li> // 🟢 FORCE WHITE TEXT
+                  ))}
+                </ul>
+              </Box>
+            </Box>
+          </Carousel.Slide>
+        ))}
+      </Carousel>
 
       <Box ta="center" mt={40}>
         <button type="button" className={classes.knowMoreBtn} onClick={open}>
           KNOW MORE →
         </button>
       </Box>
-       <Modal
-        opened={opened}
-        onClose={close}
-        size="xl"
-        centered
-        overlayProps={{ backgroundOpacity: 0.55, blur: 3 }}
-      >
+
+      <Modal opened={opened} onClose={close} size="xl" centered overlayProps={{ backgroundOpacity: 0.55, blur: 3 }}>
         <ContactForm close={close} />
       </Modal>
     </Box>

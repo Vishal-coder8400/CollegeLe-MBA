@@ -83,19 +83,29 @@ export default function HumSection() {
       </Box>
 
       {/* ✅ STATS SECTION */}
-      <Box className={classes.statsWrapper}>
-        <Grid justify="center" align="center" gutter={35}>
-          {stats.map((item, index) => (
-            <Grid.Col key={index} span={{ base: 6, sm: 3 }}>
-              <Box className={classes.statsCard}>
-                <Image src={item.img} alt="stats-icon" w={55} />
-                <Text className={classes.statsTitle}>{item.title}</Text>
-                <Text className={classes.statsSubtitle}>{item.subtitle}</Text>
-              </Box>
-            </Grid.Col>
-          ))}
-        </Grid>
-      </Box>
+      {/* ✅ STATS SECTION */}
+<Box className={classes.statsWrapper}>
+  <Grid justify="center" align="center" gutter={35}>
+    {stats.map((item, index) => (
+      <Grid.Col key={index} span={{ base: 6, sm: 3 }}>
+        <Box className={classes.statsCard}>
+          <Image src={item.img} alt="stats-icon" w={55} />
+
+          {/* Force color (Fixes Vercel) */}
+          <Text className={classes.statsTitle} style={{ color: "#fff" }}>
+            {item.title}
+          </Text>
+
+          {/* Force color (Fixes Vercel) */}
+          <Text className={classes.statsSubtitle} style={{ color: "#fff" }}>
+            {item.subtitle}
+          </Text>
+        </Box>
+      </Grid.Col>
+    ))}
+  </Grid>
+</Box>
+
     </>
   );
 }
