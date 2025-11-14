@@ -1,4 +1,4 @@
-// File: D:\Office Projects 2025\CollegeLe\collegele\app\college-mba\page.tsx
+// File: D:\Office Projects 2025\test\collegele\app\college-mba\page.tsx
 import * as entry from '../../../../app/college-mba/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

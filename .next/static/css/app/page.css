@@ -1,0 +1,1121 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/AboutUsHerobox/AboutUsHerobox.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.AboutUsHerobox_main__Apjxt {
+  min-height: 100vh !important;
+  background: linear-gradient(180deg, #8e44ad, #2c3e50) !important;
+  background-image: url('/assets/herobox/herobox__sm.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  padding-top: 80px !important;
+}
+
+  @media (min-width: 1200px) {.AboutUsHerobox_main__Apjxt {
+    background-image: url('/assets/herobox/Herobox__aboutUs.png') !important
+}
+  }
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/AdmissionInfo/AdmissionInfo.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.AdmissionInfo_control__m2PZs {
+  color: #f24b04 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Application/Application.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.Application_main__9_fWf {
+  background-image: url('/assets/herobox/herobox__search.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ApplicationHowItWorks/ApplicationHowItWorks.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ApplicationHowItWorks_title__aFvSH {
+  font-size: 34px !important;
+  font-weight: 900 !important;
+}
+
+  @media (max-width: 600px) {.ApplicationHowItWorks_title__aFvSH {
+    font-size: 24px !important
+}
+  }
+
+.ApplicationHowItWorks_description__jdDGX {
+  max-width: 600px !important;
+  margin: auto !important;
+  margin-top: 10px !important;
+}
+
+.ApplicationHowItWorks_description__jdDGX::after {
+    content: '' !important;
+    display: block !important;
+    background-color: #f24b04 !important;
+    width: 45px !important;
+    height: 2px !important;
+    margin-top: var(--mantine-spacing-sm) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+.ApplicationHowItWorks_card__P1GUx {
+  border: 1px solid var(--mantine-color-gray-1) !important;
+}
+
+[data-mantine-color-scheme='dark'] .ApplicationHowItWorks_card__P1GUx {
+  border: 1px solid var(--mantine-color-dark-5) !important;
+}
+
+.ApplicationHowItWorks_cardTitle__V6H6G::after {
+    content: '' !important;
+    display: block !important;
+    width: 45px !important;
+    height: 2px !important;
+    margin-top: var(--mantine-spacing-sm) !important;
+  }
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ApplicationRightCollege/FeaturesCards.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+.FeaturesCards_title__Rlj1A {
+  font-size: 34px !important;
+  font-weight: 900 !important;
+}
+
+  @media (max-width: 600px) {.FeaturesCards_title__Rlj1A {
+    font-size: 24px !important
+}
+  }
+
+.FeaturesCards_description__Cs_fh {
+  max-width: 600px !important;
+  margin: auto !important;
+  margin-top: 10px !important;
+}
+
+.FeaturesCards_description__Cs_fh::after {
+    content: '' !important;
+    display: block !important;
+    background-color: #f24b04 !important;
+    width: 45px !important;
+    height: 2px !important;
+    margin-top: var(--mantine-spacing-sm) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+.FeaturesCards_card__jPX_4 {
+  border: 1px solid var(--mantine-color-gray-1) !important;
+}
+
+[data-mantine-color-scheme='dark'] .FeaturesCards_card__jPX_4 {
+  border: 1px solid var(--mantine-color-dark-5) !important;
+}
+
+.FeaturesCards_cardTitle__KGtH6::after {
+    content: '' !important;
+    display: block !important;
+    width: 45px !important;
+    height: 2px !important;
+    margin-top: var(--mantine-spacing-sm) !important;
+  }
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Blogs/Blogs.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Blogs_box__9JLpt {
+  border-radius: 8px !important;
+  box-shadow: 0px 1px 4px 0px #19213d14 !important;
+  overflow: hidden !important;
+  margin: 20px 10px !important;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ChooseRightCollege/ChooseRightCollege.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+.ChooseRightCollege_box__data__Z7MFV {
+  max-width: 640px !important;
+  margin: 30px auto 0 !important;
+}
+
+.ChooseRightCollege_box__cards_main__0rVVF {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  display: flex !important;
+  /* flex-wrap: wrap !important; */
+  justify-content: center !important;
+  /* max-width: 90%; */
+  margin: 0 auto !important;
+  /* overflow-x: scroll; */
+}
+
+.ChooseRightCollege_card__J4oWz {
+  height: 321px !important;
+  width: 200px !important;
+  flex: 1;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+
+  margin: 10px 10px 0 !important;
+  border-radius: 10px !important;
+  padding: 15px !important;
+}
+
+.ChooseRightCollege_card__title__wTKXZ {
+  font-size: 28px !important;
+  font-weight: 600 !important;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ContactForm/ContactForm.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.ContactForm_box__1__AIUsH {
+  background-image: url('/assets/contact__bg.png');
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/CollegeCourses/CollegeCourses.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.CollegeCourses_modal__header__m0MAv {
+  position: absolute !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  right: 10px;
+  top: 10px;
+}
+
+.CollegeCourses_modal__body__rNpNk {
+  padding: 0 !important;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/CollegeHerobox/CollegeHerobox.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.CollegeHerobox_main__SBSjh {
+  background: url('/assets/herobox/herobox__college.png'), #191919 !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+}
+
+.CollegeHerobox_modal__header__y8P4m {
+  position: absolute !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  right: 10px;
+  top: 10px;
+}
+
+.CollegeHerobox_modal__body__33CiH {
+  padding: 0 !important;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/CollegePlacements/CollegePlacements.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.CollegePlacements_main__5KjMG {
+  background-image: url('/assets/placement__bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.CollegePlacements_control__oYm87 {
+  color: #f24b04 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.CollegePlacements_input__Fbg7c {
+  background-color: #2b2b2b !important;
+  font-size: 14px !important;
+  color: #fff !important;
+  border-color: #2b2b2b !important;
+}
+
+.CollegePlacements_option__d4TrQ {
+  font-size: 14px !important;
+}
+
+.CollegePlacements_root__t0SP9 {
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/CollegePredict/CollegePredict.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.CollegePredict_input__qY4rm {
+  background-color: transparent !important;
+  font-size: 14px !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.CollegePredict_option__xg6D9 {
+  font-size: 14px !important;
+}
+
+.CollegePredict_root__QhWar {
+  border: 1px solid #666 !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/CollegeRanking/CollegeRanking.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.CollegeRanking_control__13ZdZ {
+  color: #f24b04 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/CollegeReviews/CollegeReviews.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.CollegeReviews_grid__1___O40T {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: column;
+}
+
+  @media (min-width: 600px) {.CollegeReviews_grid__1___O40T {
+    flex-direction: row
+}
+  }
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/CollegeFilter/CollegeFilter.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.CollegeFilter_label__aB6WT {
+  color: #655f5f !important;
+  font-size: 14px !important;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/CollegesList/CollegesList.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.CollegesList_college__about__io8cS {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/ContactUsForm/COntactUsForm.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.COntactUsForm_label__UNbSw {
+  color: #f2f2f2 !important;
+}
+
+.COntactUsForm_input__daByJ {
+  background-color: #1a191a !important;
+  border: none !important;
+  border-bottom: 1px solid #f2f2f2 !important;
+  border-radius: 0 !important;
+  color: #f2f2f2 !important;
+}
+
+.COntactUsForm_social__3tQYh {
+  width: 45px !important;
+  height: 45px !important;
+  background-color: transparent !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/DiscoverCareer/DiscoverCareer.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.DiscoverCareer_main__box___PJ9O {
+  max-width: 364px !important;
+  margin: 30px auto !important;
+  border-radius: 16px !important;
+  background-color: #0a9396 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: column !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  padding: 60px 10px 0 !important;
+}
+
+  @media (min-width: 1100px) {.DiscoverCareer_main__box___PJ9O {
+    flex-direction: row !important;
+    max-width: fit-content !important;
+    padding: 0 20px !important
+}
+  }
+
+.DiscoverCareer_box__image__BE3Ng {
+  order: 3 !important;
+}
+
+@media (min-width: 1100px) {
+
+.DiscoverCareer_box__image__BE3Ng {
+    order: 0 !important
+}
+  }
+
+.DiscoverCareer_box__text__Cyau8 {
+  max-width: 423px !important;
+  text-align: center !important;
+  margin: 0 30px !important;
+}
+
+.DiscoverCareer_button__group__rkTkA {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.DiscoverCareer_button__xy29v {
+  background-color: #fff !important ;
+  color: #1d3557 !important ;
+  margin-bottom: 20px;
+}
+
+.DiscoverCareer_info__rn0MJ {
+  margin: 20px 0 !important ;
+}
+
+@media (min-width: 1100px) {
+
+.DiscoverCareer_info__rn0MJ {
+    margin-top: 20px !important
+}
+  }
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/FAQs/FAQs.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.FAQs_accordion__main__yxIdL {
+  max-width: 1100px !important;
+  background-image: url('/assets/overlay.png') !important;
+  background-position: bottom !important;
+  background-repeat: no-repeat !important;
+  margin: 0 auto !important;
+  padding: 20px 15px !important;
+  border-radius: 10px !important;
+  border: 1px solid #d4d8e2 !important;
+  color: #fff !important;
+}
+
+  @media (min-width: 500px) {.FAQs_accordion__main__yxIdL {
+    padding: 50px !important
+}
+  }
+
+  @media (min-width: 800px) {.FAQs_accordion__main__yxIdL {
+    padding: 50px !important
+}
+  }
+
+.FAQs_main__title__tC5Mc {
+  text-align: center !important;
+  font-size: 32px !important;
+}
+
+@media (min-width: 800px) {
+
+.FAQs_main__title__tC5Mc {
+    font-size: 48px !important
+}
+  }
+
+.FAQs_item__Nd4iN {
+  margin: 20px 0 !important;
+  background-color: #1e1e1e !important;
+  border: 1px solid #d4d8e2 !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 5px 16px 0px #080f340f !important;
+  padding: 10px !important;
+}
+
+@media (min-width: 500px) {
+
+.FAQs_item__Nd4iN {
+    padding: 20px !important
+}
+  }
+
+.FAQs_activeItem__1z0Yl {
+  border: 2px solid #d4d8e2 !important;
+  box-shadow: 0px 6px 16px 0px #4a3aff30 !important;
+}
+
+.FAQs_chevron__cAM_P {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  border: 1px solid #d4d8e2 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transform: rotate(-90deg) !important;
+}
+
+@media (min-width: 500px) {
+
+.FAQs_chevron__cAM_P {
+    width: 50px !important;
+    height: 50px !important
+}
+  }
+
+.FAQs_item__Nd4iN[data-active] .FAQs_chevron__cAM_P {
+  transform: rotate(360deg) !important;
+  background-color: #f24b04 !important;
+  /* padding: 10px !important; */
+}
+
+.FAQs_chevron__icon__Udih3 {
+  width: 15px !important;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/FindCollege/FindCollege.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.FindCollege_base__1aH7z {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+  padding-bottom: 30px !important;
+  margin: 60px 0 !important;
+}
+
+.FindCollege_content__main__0qJ6X {
+  max-width: 1300px !important;
+  margin: 0 auto !important;
+}
+
+.FindCollege_grid__box__fMVHa {
+  border: 1px solid #a6a6a6 !important;
+  border-radius: 8px !important;
+  padding: 20px !important;
+  background-color: #fff !important;
+  /* margin: 50px 0; */
+}
+
+.FindCollege_college__FSioO {
+  background-color: #eaeaea !important;
+  color: #585858 !important;
+  border-radius: 16px !important;
+  padding: 5px 10px !important;
+  text-align: center !important;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Footer/Footer.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_main__U1P5f {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+  padding: 40px 20px 0 !important;
+}
+
+.Footer_main__box___B6Ty {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 20px 0;
+}
+
+.Footer_input__root__S9ikc {
+  box-shadow: 0px 1px 4px rgba(25, 33, 61, 0.08) !important;
+  border-radius: 6px !important;
+}
+
+.Footer_input__input__mpyPe {
+  background-color: #434343;
+  border: none !important;
+}
+
+.Footer_social__button__8rJHv {
+  margin: 0 5px !important;
+}
+
+.Footer_main__box_inner__wSBvO {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+}
+
+.Footer_main__box_inner_2__2oIwb {
+  justify-content: flex-start !important;
+  flex-wrap: wrap !important;
+}
+
+.Footer_box__bKXn_ {
+  margin: 0 10px !important;
+}
+
+@media (min-width: 600px) {
+
+.Footer_box__bKXn_ {
+    margin: 0 20px !important
+}
+  }
+
+.Footer_link__wHCdx {
+  padding: 6px 0 !important;
+  cursor: pointer !important;
+}
+
+.Footer_social__ZBgR2 {
+  width: 45px !important;
+  height: 45px !important;
+  background-color: transparent !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Header/Header.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__pXml_ {
+  height: 60px !important;
+  padding: 0 20px !important;
+  border-bottom: 1px solid var(--mantine-color-gray-3) !important;
+}
+  [data-mantine-color-scheme='dark'] .Header_header__pXml_ {
+  border-bottom: 1px solid var(--mantine-color-dark-4) !important;
+}
+
+  @media (min-width: 1200px) {.Header_header__pXml_ {
+    padding: 0 100px !important
+}
+  }
+
+.Header_link___GWEF {
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+  padding-left: var(--mantine-spacing-md) !important;
+  padding-right: var(--mantine-spacing-md) !important;
+  text-decoration: none !important;
+  color: var(--mantine-color-black) !important;
+}
+
+[data-mantine-color-scheme='dark'] .Header_link___GWEF {
+  color: var(--mantine-color-white) !important;
+}
+
+.Header_link___GWEF {
+  font-weight: 500 !important;
+  font-size: var(--mantine-font-size-sm) !important;
+}
+
+@media (max-width: 600px) {
+
+.Header_link___GWEF {
+    height: 42px !important;
+    width: 100% !important
+}
+  }
+
+@media (hover: hover) {
+  .Header_link___GWEF:hover {
+    background-color: var(--mantine-color-gray-0) !important;
+  }
+    [data-mantine-color-scheme='dark'] .Header_link___GWEF:hover {
+    background-color: var(--mantine-color-dark-6) !important;
+  }
+}
+
+@media (hover: none) {
+  .Header_link___GWEF:active {
+    background-color: var(--mantine-color-gray-0) !important;
+  }
+    [data-mantine-color-scheme='dark'] .Header_link___GWEF:active {
+    background-color: var(--mantine-color-dark-6) !important;
+  }
+}
+
+.Header_subLink__YCpHz {
+  width: 100% !important;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md) !important;
+  border-radius: var(--mantine-radius-md) !important;
+}
+
+@media (hover: hover) {
+  .Header_subLink__YCpHz:hover {
+    background-color: var(--mantine-color-gray-0) !important;
+  }
+    [data-mantine-color-scheme='dark'] .Header_subLink__YCpHz:hover {
+    background-color: var(--mantine-color-dark-7) !important;
+  }
+}
+
+@media (hover: none) {
+  .Header_subLink__YCpHz:active {
+    background-color: var(--mantine-color-gray-0) !important;
+  }
+    [data-mantine-color-scheme='dark'] .Header_subLink__YCpHz:active {
+    background-color: var(--mantine-color-dark-7) !important;
+  }
+}
+
+.Header_dropdownFooter__f_NEe {
+  background-color: var(--mantine-color-gray-0) !important;
+}
+
+[data-mantine-color-scheme='dark'] .Header_dropdownFooter__f_NEe {
+  background-color: var(--mantine-color-dark-7) !important;
+}
+
+.Header_dropdownFooter__f_NEe {
+  margin: calc(var(--mantine-spacing-md) * -1) !important;
+  margin-top: var(--mantine-spacing-sm) !important;
+  padding: var(--mantine-spacing-md) calc(var(--mantine-spacing-md) * 2) !important;
+  padding-bottom: var(--mantine-spacing-xl) !important;
+  border-top: 1px solid var(--mantine-color-gray-1) !important;
+}
+
+[data-mantine-color-scheme='dark'] .Header_dropdownFooter__f_NEe {
+  border-top: 1px solid var(--mantine-color-dark-5) !important;
+}
+
+.Header_menu__group__xS_z5 {
+  cursor: pointer !important;
+}
+
+.Header_icon__search__VsJZS {
+  background-color: #f2f2f2 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  width: 38px !important;
+  height: 38px !important;
+  padding: 0 !important;
+  color: #1f1f1fe5 !important;
+}
+
+.Header_modal__header__02SuW {
+  position: absolute !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  right: 10px;
+  top: 10px;
+}
+
+.Header_modal__body__4xzvy {
+  padding: 0 !important;
+}
+
+.Header_coursebtn__9RoSB {
+  border-left: 4px solid transparent;
+}
+
+.Header_coursebtn__active__WVgTC {
+  border-left: 4px solid #6e53e1;
+}
+
+.Header_dropdown__3E_bf {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  padding: 0 !important;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/HomeHerobox/HomeHerobox.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.HomeHerobox_main__m3fLd {
+  min-height: 100vh !important;
+  background: linear-gradient(180deg, #8e44ad, #2c3e50) !important;
+  background-image: url('/assets/herobox/herobox__sm.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+  padding-top: 40px !important;
+}
+
+  @media (min-width: 600px) {.HomeHerobox_main__m3fLd {
+    background-image: url('/assets/herobox/herobox__home.png') !important;
+    padding-top: 60px !important;
+    min-height: 100vh !important
+}
+  }
+
+.HomeHerobox_content__Lvy8V {
+  max-width: 596px !important;
+  margin: 0 auto !important;
+  color: #fff !important;
+  text-align: center !important;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Intentions/Intentions.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.Intentions_main__O9VO0 {
+  background-image: url('/assets/full_circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+}
+
+.Intentions_value__box__2aynv {
+  background: url('/assets/leaders/founder.png'), #191919 !important;
+  background-repeat: no-repeat !important;
+  background-position: left !important;
+  background-size: contain !important;
+
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: end !important;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/JobReady/JobReady.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.JobReady_top__V7eSZ {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+  margin: 60px 0 !important;
+}
+
+.JobReady_box__main__83JF7 {
+  background-size: cover !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  /* flex-wrap: wrap !important; */
+  border-radius: 10px !important;
+  background-color: #191919 !important;
+  overflow: hidden !important;
+  flex-direction: column !important;
+}
+
+@media (min-width: 1200px) {
+
+.JobReady_box__main__83JF7 {
+    max-width: fit-content !important;
+    flex-direction: row !important
+}
+  }
+
+.JobReady_image__box__rk2ui {
+  height: 300px !important;
+  width: 300px !important;
+  margin: 0 auto !important;
+  background-image: url('/assets/awesome/person.png');
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+}
+
+@media (min-width: 600px) {
+
+.JobReady_image__box__rk2ui {
+    height: 500px !important;
+    width: 600px !important
+}
+  }
+
+.JobReady_item__box__o6IzT {
+  width: 160px !important;
+  height: 140px !important;
+}
+
+@media (min-width: 1000px) {
+
+.JobReady_item__box__o6IzT {
+    width: 221px !important;
+    height: 172px !important
+}
+  }
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/LatestNews/LatestNews.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.LatestNews_box__TPq4D {
+  border-radius: 8px !important;
+  box-shadow: 0px 1px 4px 0px #19213d14 !important;
+  overflow: hidden !important;
+  margin: 20px 10px !important;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Offerings/Offerings.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Offerings_main__HaZaR {
+  background-color: #191919 !important;
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+  padding: 60px 10px !important;
+}
+
+.Offerings_segment__box__A9o_z {
+  border-radius: 010px !important;
+  border: 1px solid rgba(246, 246, 246, 0.5) !important;
+}
+
+.Offerings_label__fxpkk {
+  color: #f24b04 !important;
+  border: 1px solid rgba(246, 246, 246, 0.5) !important;
+  padding: 10px 15px !important;
+  font-weight: 600 !important;
+  margin: 5px !important;
+}
+
+.Offerings_label__fxpkk:hover {
+  color: #f24b04 !important;
+}
+
+.Offerings_label__fxpkk[data-active] {
+  color: #fff !important;
+  border: none !important;
+}
+
+.Offerings_modal__header__zxbmQ {
+  position: absolute !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  right: 10px;
+  top: 10px;
+}
+
+.Offerings_modal__body__peR6U {
+  padding: 0 !important;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/OurLeaders/OurLeaders.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.OurLeaders_main__JvHcT {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+}
+
+.OurLeaders_carousel__top__AJ02r {
+  max-width: 1100px !important;
+  margin: 40px auto !important;
+}
+
+.OurLeaders_carousel__box__ZH6RK {
+  height: 267px !important;
+  width: 238px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  position: relative !important;
+  background-color: #dedede !important;
+  border-radius: 16px !important;
+}
+
+.OurLeaders_leader__info__C_h70 {
+  position: absolute !important;
+  bottom: 5px !important;
+  width: 95% !important;
+  margin: 0 auto !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/OurStory/OurStory.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.OurStory_box__main__H5P8L {
+  background-image: url('/assets/story_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+  @media (min-width: 600px) {.OurStory_box__main__H5P8L {
+    border-radius: 16px !important
+}
+  }
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/RecommendedColleges/RecommendedColleges.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+.RecommendedColleges_base__ACcSe {
+  background-color: #191919 !important;
+  border-radius: 8px !important;
+  margin: 60px 0 !important;
+  padding: 0 30px !important;
+}
+
+.RecommendedColleges_main__GMie3 {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+
+  display: flex !important;
+  justify-content: space-around !important;
+  flex-wrap: wrap !important;
+  max-width: 1130px !important;
+  margin: 0 auto !important;
+  padding: 60px 0 !important;
+}
+
+.RecommendedColleges_carousel__main__13hxY {
+  overflow: hidden !important;
+  border-radius: 10px !important;
+  margin: 10px !important;
+}
+
+.RecommendedColleges_carousel__box__q3_TN {
+  position: relative !important;
+  max-width: 544px !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.RecommendedColleges_college__title__USpS5 {
+  position: absolute !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  left: 20px !important;
+  top: 20px !important;
+  z-index: 100 !important;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/SearchHerobox/SearchHerobox.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.SearchHerobox_main__eJdhO {
+  height: 344px !important;
+  background-image: url('/assets/herobox/herobox__search.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+}
+
+.SearchHerobox_section__VMElD[data-position='right'] {
+  width: 100px !important;
+  /* z-index: 1000; */
+  /* cursor: pointer; */
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Showcase/Showcase.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Showcase_main__JsNAc {
+  text-align: center !important;
+}
+
+.Showcase_heading__573pt {
+  color: #1d3557 !important;
+  margin: 30px 0 !important;
+  font-size: 24px !important;
+}
+
+@media (min-width: 700px) {
+
+.Showcase_heading__573pt {
+    font-size: 32px !important
+}
+  }
+
+@media (min-width: 1100px) {
+
+.Showcase_heading__573pt {
+    font-size: 48px !important
+}
+  }
+
+.Showcase_mainBox__X6kfp {
+  width: fit-content !important;
+  padding: 0 20px !important;
+  border-radius: 20px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+.Showcase_box__iHtsB {
+  width: 260px !important;
+  max-width: 260px !important;
+  padding: 30px !important;
+  text-align: center !important;
+  margin: 20px !important;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Testimonials/Testimonials.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.Testimonials_carousel__top__V4WDM {
+  background-color: #eaeaea !important;
+  padding: 40px 0 20px !important;
+  max-width: 1171px !important;
+  margin: 0 auto !important;
+  position: relative !important;
+}
+
+  @media (min-width: 1000px) {.Testimonials_carousel__top__V4WDM {
+    border-radius: 12px !important
+}
+  }
+
+.Testimonials_carousel__box__i7CBr {
+  width: 279px !important;
+  /* background: linear-gradient(129.28deg, #1d1d1d -31.62%, #0b0b0b 101.98%) !important; */
+  background-color: #fff;
+  color: #fff !important;
+  border: 1px solid #cacaca;
+  padding: 20px !important;
+  border-radius: 12px !important;
+  transition: transform 0.3s ease-in-out !important;
+}
+
+@media (min-width: 600px) {
+
+.Testimonials_carousel__box__i7CBr {
+    width: 446px !important
+}
+  }
+
+.Testimonials_active__8e8fR {
+  transform: scale(1.1) !important;
+}
+
+.Testimonials_icon__main__HGrO7 {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: end !important;
+  margin: 0 0 10px !important;
+}
+
+.Testimonials_name__opuh4 {
+  color: #f24b04 !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+
+.Testimonials_controls__1cuv1 {
+  display: flex !important;
+  justify-content: flex-end !important;
+  gap: 10px !important;
+  margin: 80px 60px 40px 0 !important;
+}
+
