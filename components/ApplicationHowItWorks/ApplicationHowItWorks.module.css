@@ -1,0 +1,39 @@
+.title {
+  font-size: 34px !important;
+  font-weight: 900 !important;
+
+  @media (max-width: 600px) {
+    font-size: 24px !important;
+  }
+}
+
+.description {
+  max-width: 600px !important;
+  margin: auto !important;
+  margin-top: 10px !important;
+
+  &::after {
+    content: '' !important;
+    display: block !important;
+    background-color: #f24b04 !important;
+    width: 45px !important;
+    height: 2px !important;
+    margin-top: var(--mantine-spacing-sm) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.card {
+  border: 1px solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5)) !important;
+}
+
+.cardTitle {
+  &::after {
+    content: '' !important;
+    display: block !important;
+    width: 45px !important;
+    height: 2px !important;
+    margin-top: var(--mantine-spacing-sm) !important;
+  }
+}

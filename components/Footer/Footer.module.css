@@ -1,0 +1,60 @@
+.main {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+  padding: 40px 20px 0 !important;
+}
+
+.main__box {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 20px 0;
+}
+
+.input__root {
+  box-shadow: 0px 1px 4px rgba(25, 33, 61, 0.08) !important;
+  border-radius: 6px !important;
+}
+
+.input__input {
+  background-color: #434343;
+  border: none !important;
+}
+
+.social__button {
+  margin: 0 5px !important;
+}
+
+.main__box_inner {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+}
+
+.main__box_inner_2 {
+  justify-content: flex-start !important;
+  flex-wrap: wrap !important;
+}
+
+.box {
+  margin: 0 10px !important;
+
+  @media (min-width: 600px) {
+    margin: 0 20px !important;
+  }
+}
+
+.link {
+  padding: 6px 0 !important;
+  cursor: pointer !important;
+}
+
+.social {
+  width: 45px !important;
+  height: 45px !important;
+  background-color: transparent !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  border: 0 !important;
+}

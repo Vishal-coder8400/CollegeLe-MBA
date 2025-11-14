@@ -1,0 +1,31 @@
+.main {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+}
+
+.carousel__top {
+  max-width: 1100px !important;
+  margin: 40px auto !important;
+}
+
+.carousel__box {
+  height: 267px !important;
+  width: 238px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  position: relative !important;
+  background-color: #dedede !important;
+  border-radius: 16px !important;
+}
+
+.leader__info {
+  position: absolute !important;
+  bottom: 5px !important;
+  width: 95% !important;
+  margin: 0 auto !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}

@@ -1,0 +1,50 @@
+.carousel__top {
+  background-color: #eaeaea !important;
+  padding: 40px 0 20px !important;
+  max-width: 1171px !important;
+  margin: 0 auto !important;
+  position: relative !important;
+
+  @media (min-width: 1000px) {
+    border-radius: 12px !important;
+  }
+}
+
+.carousel__box {
+  width: 279px !important;
+  /* background: linear-gradient(129.28deg, #1d1d1d -31.62%, #0b0b0b 101.98%) !important; */
+  background-color: #fff;
+  color: #fff !important;
+  border: 1px solid #cacaca;
+  padding: 20px !important;
+  border-radius: 12px !important;
+  transition: transform 0.3s ease-in-out !important;
+
+  @media (min-width: 600px) {
+    width: 446px !important;
+  }
+}
+
+.active {
+  transform: scale(1.1) !important;
+}
+
+.icon__main {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: end !important;
+  margin: 0 0 10px !important;
+}
+
+.name {
+  color: #f24b04 !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+
+.controls {
+  display: flex !important;
+  justify-content: flex-end !important;
+  gap: 10px !important;
+  margin: 80px 60px 40px 0 !important;
+}

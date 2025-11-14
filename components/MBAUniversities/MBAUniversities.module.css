@@ -1,0 +1,101 @@
+.wrapper {
+  padding: 60px 0;
+}
+
+.heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.card {
+border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 4px 20px;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensures equal height cards */
+}
+
+.cardImage {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.titleBar {
+  background: #d7d5e9;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #083bce;
+}
+
+.details {
+  padding: 15px;
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.iconGroup {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  color: #002a61;
+  font-weight: 600;
+}
+
+.feeSection {
+  display: flex;
+  align-items: start;
+  gap: 6px;
+}
+
+.feeText {
+  font-size: 14px;
+  color: #002a61;
+}
+
+.feeAmount {
+  font-size: 18px;
+  color: #002a61;
+  font-weight: 700;
+}
+
+.divider {
+  margin: 10px 15px;
+  border-top: 2px solid #001f3f;
+}
+
+
+.keyFeatureBox {
+  padding: 0 15px 15px;
+  flex-grow: 1; /* Pushes the button down */
+}
+
+.card button {
+  margin-top: auto; /* Button always at bottom */
+}
+.enquireBtn {
+  background: #F24B04 !important;
+  color: #ffffff !important;
+  width: 90%;
+  margin: 15px auto;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+.enquireBtn:hover {
+   background: #d63f03 !important;
+  transform: scale(1.05);
+}

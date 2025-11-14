@@ -1,0 +1,10 @@
+.box__main {
+  background-image: url('/assets/story_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+
+  @media (min-width: 600px) {
+    border-radius: 16px !important;
+  }
+}

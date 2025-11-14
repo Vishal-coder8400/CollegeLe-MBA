@@ -1,0 +1,19 @@
+.main {
+  background: url('/assets/herobox/herobox__college.png'), #191919 !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+}
+
+.modal__header {
+  position: absolute !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  right: 10px;
+  top: 10px;
+}
+
+.modal__body {
+  padding: 0 !important;
+}

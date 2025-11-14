@@ -1,0 +1,43 @@
+.main {
+  background-color: #191919 !important;
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+  padding: 60px 10px !important;
+}
+
+.segment__box {
+  border-radius: 010px !important;
+  border: 1px solid rgba(246, 246, 246, 0.5) !important;
+}
+
+.label {
+  color: #f24b04 !important;
+  border: 1px solid rgba(246, 246, 246, 0.5) !important;
+  padding: 10px 15px !important;
+  font-weight: 600 !important;
+  margin: 5px !important;
+}
+
+.label:hover {
+  color: #f24b04 !important;
+}
+
+.label[data-active] {
+  color: #fff !important;
+  border: none !important;
+}
+
+.modal__header {
+  position: absolute !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  right: 10px;
+  top: 10px;
+}
+
+.modal__body {
+  padding: 0 !important;
+}

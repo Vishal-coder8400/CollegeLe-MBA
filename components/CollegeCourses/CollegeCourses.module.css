@@ -1,0 +1,12 @@
+.modal__header {
+  position: absolute !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  right: 10px;
+  top: 10px;
+}
+
+.modal__body {
+  padding: 0 !important;
+}

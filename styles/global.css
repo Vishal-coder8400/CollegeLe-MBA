@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.theme__red {
+  color: #f24b04;
+}
+
+.theme__dark {
+  color: #191919;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  scrollbar-width: none;
+}
+
+.footer__link {
+  text-decoration: underline;
+  color: #6d758f;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.cursor {
+  cursor: pointer !important;
+}
+
+.spoiler__control {
+  font-size: 12px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}

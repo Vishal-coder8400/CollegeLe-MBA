@@ -1,0 +1,48 @@
+.top {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+  margin: 60px 0 !important;
+}
+
+.box__main {
+  background-size: cover !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  /* flex-wrap: wrap !important; */
+  border-radius: 10px !important;
+  background-color: #191919 !important;
+  overflow: hidden !important;
+  flex-direction: column !important;
+
+  @media (min-width: 1200px) {
+    max-width: fit-content !important;
+    flex-direction: row !important;
+  }
+}
+
+.image__box {
+  height: 300px !important;
+  width: 300px !important;
+  margin: 0 auto !important;
+  background-image: url('/assets/awesome/person.png');
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+
+  @media (min-width: 600px) {
+    height: 500px !important;
+    width: 600px !important;
+  }
+}
+
+.item__box {
+  width: 160px !important;
+  height: 140px !important;
+
+  @media (min-width: 1000px) {
+    width: 221px !important;
+    height: 172px !important;
+  }
+}

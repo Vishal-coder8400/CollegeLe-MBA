@@ -1,0 +1,43 @@
+.base {
+  background-color: #191919 !important;
+  border-radius: 8px !important;
+  margin: 60px 0 !important;
+  padding: 0 30px !important;
+}
+
+.main {
+  background-image: url('/assets/circle_bg.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: contain !important;
+
+  display: flex !important;
+  justify-content: space-around !important;
+  flex-wrap: wrap !important;
+  max-width: 1130px !important;
+  margin: 0 auto !important;
+  padding: 60px 0 !important;
+}
+
+.carousel__main {
+  overflow: hidden !important;
+  border-radius: 10px !important;
+  margin: 10px !important;
+}
+
+.carousel__box {
+  position: relative !important;
+  max-width: 544px !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.college__title {
+  position: absolute !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  left: 20px !important;
+  top: 20px !important;
+  z-index: 100 !important;
+}

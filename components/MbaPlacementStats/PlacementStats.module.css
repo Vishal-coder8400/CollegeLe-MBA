@@ -1,0 +1,103 @@
+/* ============================
+   SECTION WRAPPER (reduced space)
+===============================*/
+.wrapper {
+  width: 100%;
+  text-align: center;
+  padding: 30px 10px 40px;   /* MUCH smaller */
+}
+
+/* ============================
+   HEADINGS
+===============================*/
+.subHeading {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.heading {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 17px;
+  max-width: 850px;
+  margin: 0 auto 25px;   /* smaller bottom space */
+  color: #444;
+  line-height: 1.45;
+}
+
+/* ============================
+   CARD CONTAINER (uniform height)
+===============================*/
+.card {
+  background:  #f24b04;
+  border-radius: 35px;
+
+  /* 🔥 FORCE ALL CARDS SAME HEIGHT */
+  height: 180px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 15px;
+  text-align: center;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Card Number */
+.card h3 {
+  font-size: 32px;
+  margin: 0 0 6px 0;
+  font-weight: 700;
+}
+
+/* Card Text */
+.card p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* ============================
+   Responsive
+===============================*/
+@media (max-width: 768px) {
+
+  .wrapper {
+    padding: 25px 10px;
+  }
+
+  .heading {
+    font-size: 26px;
+  }
+
+  .description {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    height: 150px;
+    padding: 10px;
+  }
+
+  .card h3 {
+    font-size: 26px;
+  }
+
+  .card p {
+    font-size: 15px;
+  }
+}
+
+.orangeText {
+  color: #f24b04;   /* Your orange color */
+}

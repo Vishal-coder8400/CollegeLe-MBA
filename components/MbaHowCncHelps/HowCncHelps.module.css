@@ -1,0 +1,82 @@
+/* Wrapper background */
+.wrapper {
+  width: 100%;
+  background: linear-gradient(90deg, #5A089C 0%, #0A1A3F 100%);
+  padding: 60px 20px 80px;
+  text-align: center;
+  color: white;
+}
+
+/* Heading */
+.heading {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* Sub text */
+.subheading {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.9;
+  margin-bottom: 35px;
+}
+
+/* White cards */
+.card {
+  background: #ffffff;
+  padding: 35px 40px;
+  border-radius: 35px;
+  text-align: left;
+}
+
+/* Bullet list text */
+.card li {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0b2746;
+}
+
+/* Yellow CTA Button */
+.ctaBtn {
+  margin-top: 35px;
+  background: #F24B04 !important;
+  color: #ffffff !important;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 14px 40px;
+  border-radius: 999px;
+  transition: 0.3s ease;
+}
+
+.ctaBtn:hover {
+  background: #d63f03 !important;
+  transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 26px;
+  }
+
+  .subheading {
+    font-size: 17px;
+  }
+
+  .card {
+    padding: 25px;
+  }
+
+  .card li {
+    font-size: 16px;
+  }
+
+  /* RESPONSIVE BUTTON FIX */
+  .ctaBtn {
+    width: 90%;
+    max-width: 300px;
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+}

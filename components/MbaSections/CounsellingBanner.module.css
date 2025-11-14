@@ -1,0 +1,57 @@
+.wrapper {
+  width: 100%;
+  padding: 50px 10px;
+  text-align: center;
+  color: white;
+
+  /* ✅ Exact matching gradient like screenshot */
+  background: linear-gradient(90deg, #5A089C 0%, #0A1A3F 100%);
+}
+
+
+.content h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.content p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 6px 0;
+}
+
+
+/* ✅ Same button style used in Enquire Now */
+.ctaBtn {
+  margin-top: 35px;
+  background: #F24B04 !important;
+  color: #ffffff !important;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 18px 40px;
+  border-radius: 999px;
+  transition: 0.3s ease;
+}
+
+.ctaBtn:hover {
+  background: #d63f03 !important;
+  transform: scale(1.05);
+}
+
+/* ✅ Responsive for mobile */
+@media (max-width: 768px) {
+  .content h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .content p {
+    font-size: 18px;
+  }
+
+  .ctaBtn {
+    padding: 14px 32px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,8 @@
+.content {
+  max-width: 1000px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  margin: 0 auto !important;
+  align-items: center !important;
+}

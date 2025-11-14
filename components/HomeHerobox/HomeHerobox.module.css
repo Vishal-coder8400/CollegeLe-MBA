@@ -1,0 +1,22 @@
+.main {
+  min-height: 100vh !important;
+  background: linear-gradient(180deg, #8e44ad, #2c3e50) !important;
+  background-image: url('/assets/herobox/herobox__sm.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+  padding-top: 40px !important;
+
+  @media (min-width: 600px) {
+    background-image: url('/assets/herobox/herobox__home.png') !important;
+    padding-top: 60px !important;
+    min-height: 100vh !important;
+  }
+}
+
+.content {
+  max-width: 596px !important;
+  margin: 0 auto !important;
+  color: #fff !important;
+  text-align: center !important;
+}

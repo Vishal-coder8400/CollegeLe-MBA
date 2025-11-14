@@ -1,0 +1,16 @@
+.input {
+  background-color: transparent !important;
+  font-size: 14px !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.option {
+  font-size: 14px !important;
+}
+
+.root {
+  border: 1px solid #666 !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}

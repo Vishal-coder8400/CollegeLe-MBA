@@ -1,0 +1,193 @@
+/* ===== HERO SECTION (Background Image) ===== */
+.heroWrapper {
+  position: relative;
+  width: 100%;
+  min-height: 580px;
+  background-image: url('/assets/icons/online-mba.avif');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.65)
+  );
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+  width: 100%;
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #f24b04;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
+.highlight {
+  color: #f24b04;
+  font-weight: 600;
+}
+
+.list {
+  list-style: disc;
+  font-size: 18px;
+  margin: 10px auto;
+  padding-left: 22px;
+  line-height: 1.5;
+}
+
+.ctaBtn {
+  margin-top: 25px;
+  background-color: #f24b04 !important;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 15px 32px;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.ctaBtn:hover {
+  transform: scale(1.05);
+}
+
+/* ===== STATS SECTION ===== */
+.statsWrapper {
+  background: #f24b04;
+  padding: 60px 15px;
+  text-align: center;
+}
+
+.statsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.statsCard img {
+  max-width: 60px;
+}
+
+.statsTitle {
+  font-size: 26px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.statsSubtitle {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 4px;
+}
+
+/* ===========================
+     FULL MOBILE RESPONSIVE
+=========================== */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 34px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .list {
+    font-size: 17px;
+  }
+}
+
+/* ===== MOBILE FIX — SHOW FULL IMAGE ===== */
+@media (max-width: 768px) {
+  .heroWrapper {
+    min-height: 420px;
+    padding: 50px 0;
+
+    /* 🔥 Main fix: show full image on mobile */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #000; /* fallback behind image */
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .list {
+    font-size: 15px;
+    padding-left: 18px;
+  }
+
+  .ctaBtn {
+    width: 90%;
+    max-width: 320px;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .statsTitle {
+    font-size: 20px;
+  }
+
+  .statsSubtitle {
+    font-size: 15px;
+  }
+
+  .statsWrapper {
+    padding: 40px 10px;
+  }
+}
+
+/* ===== EXTRA SMALL PHONES ===== */
+@media (max-width: 480px) {
+  .heroWrapper {
+    min-height: 380px;
+
+    /* 🔥 Ensure full visibility even on 4–5 inch screens */
+    background-size: contain;
+    background-position: top center;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+  .subtitle {
+    font-size: 15px;
+  }
+  .list {
+    font-size: 14px;
+  }
+  .statsTitle {
+    font-size: 18px;
+  }
+  .statsSubtitle {
+    font-size: 14px;
+  }
+}
